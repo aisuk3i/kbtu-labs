@@ -1,13 +1,12 @@
-# C++ binaries
-*.out
-*.exe
-*.o
-*.dSYM/
-
-# Python
-__pycache__/
-*.pyc
-
-# Mac / VS Code
+# Системные файлы Mac и IDE
 .DS_Store
 .vscode/
+
+# Игнорировать все файлы без расширения (скомпилированные бинарники)
+*
+!.gitignore
+!*.cpp
+!*.h
+!*.hpp
+!*.md
+!**/
